@@ -1,0 +1,56 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# =========================
+# Secrets & Environment
+# =========================
+config.env
+.env
+.env.*
+API key.txt
+
+# =========================
+# Vector DB / Local Storage
+# =========================
+qdrant_storage/
+vector_store/
+data/
+
+# =========================
+# Generated Outputs
+# =========================
+rfp_outputs/
+
+# =========================
+# Input / KB Data (Do not commit proprietary data)
+# =========================
+knowledge_base_docs/
+rfp_inputs/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# VS Code (optional)
+# =========================
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log

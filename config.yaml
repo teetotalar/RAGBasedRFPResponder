@@ -1,0 +1,35 @@
+# config.yaml
+
+version: "1.0"
+
+# -------------------------------
+# Model Provider
+# -------------------------------
+
+model_provider: gemini   # gemini | ollama
+
+# Gemini models
+excel_model: "models/gemini-2.5-flash"
+pdf_model: "models/gemini-2.5-flash"
+
+# Ollama models (used when model_provider: ollama)
+ollama_excel_model: "gemma:2b"
+ollama_pdf_model: "llama3:8b-instruct-q4_K_M"
+
+
+# -------------------------------
+# Retrieval Settings
+# -------------------------------
+
+top_k_excel: 1
+top_k_pdf: 3
+
+max_context_excel: 800
+max_context_pdf: 2000
+
+
+# -------------------------------
+# Logging
+# -------------------------------
+
+log_level: "INFO"   # DEBUG | INFO | WARNING | ERROR

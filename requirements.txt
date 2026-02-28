@@ -1,0 +1,10 @@
+sentence-transformers
+qdrant-client
+pymupdf
+python-docx
+python-pptx
+beautifulsoup4
+requests
+pyyaml
+pandas
+openpyxl
